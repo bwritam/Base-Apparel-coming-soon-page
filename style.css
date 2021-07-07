@@ -1,0 +1,68 @@
+/* ----------Google Fonts--------- */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+/* -------------Mobile Version----------- */
+@media only screen and (max-width: 799px) {
+	body{
+		font-family: "Josefin Sans", sans-serif;
+		text-align: center;
+	}
+	h1{
+		font-weight: 600;
+		text-transform: uppercase;
+		padding: 30px 50px 0 50px;
+	    font-size: 35px;
+	    letter-spacing: 7px;
+	    color: hsl(0, 6%, 24%);
+	}
+	span{
+		font-weight: 300;
+		color: hsl(0, 36%, 70%);
+	}
+	.main p{
+		font-weight: 400;
+		font-size: 13px;
+	    color: hsl(0, 36%, 70%);
+	    padding: 0 11%;
+	    padding-bottom: 20px;
+	}
+	.logo{
+		float: left;
+		width: 25%;
+		margin: 20px 30px;
+	}
+	.big-image{
+		max-width: 100%;
+	}
+	.fake-input{
+		padding-bottom: 50px;
+	}
+	.email-box{
+		padding: 11px 30px;
+	    border-radius: 20px;
+	    border: solid 1px hsl(0, 36%, 70%);
+	}
+	::placeholder{
+		color: hsl(0, 36%, 70%);
+		opacity: 0.5;
+		font-size: 11px;
+	}
+	.btn{
+		background-color: hsl(0, 93%, 68%);
+	    padding: 8px 20px;
+	    border: none;
+	    border-radius: 20px;
+	    position: absolute;
+	    right: 18%;
+	}
+	.error-image{
+		display: none;
+		position: absolute;
+	    right: 35%;
+	    top: 104%;
+	    width: 5%;
+	    margin-top: 4px
+	}
+
+	.attribution { font-size: 11px; text-align: center; }
+	.attribution a { color: hsl(228, 45%, 44%); }
+}
