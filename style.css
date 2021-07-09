@@ -69,7 +69,7 @@
 		display: none;
 		position: absolute;
 	    right: 28%;
-	    bottom: -10%;
+	    bottom: 3.5%;
 	    width: 5%;
 	}
 	.text{
@@ -77,8 +77,8 @@
 		font-weight: 600;
 		font-size: 10px;
 		position: absolute;
-		left: 16%;
-		bottom: -16%;
+		left: 18%;
+		bottom: -1.2%;
 		color: hsla(0, 93%, 68%, 0.9);
 	}
 
