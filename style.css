@@ -41,7 +41,8 @@
 		max-width: 100%;
 	}
 	.fake-input{
-		padding-bottom: 50px;
+		position: relative;
+		padding-bottom: 100px;
 	}
 	.email-box{
 		background-color: transparent;
@@ -49,6 +50,19 @@
 	    border-radius: 20px;
 	    border: solid 1px hsl(0, 36%, 70%);
 		outline: none;
+	}
+	.error-image{
+		background-color: transparent;
+		padding: 11px 80px 11px 18px;
+	    border-radius: 20px;
+	    border: 2px solid hsla(0, 93%, 68%, 0.9);
+		outline: none;
+		position: absolute;
+		left: 9%;
+		background-image: url('images/icon-error.svg');
+		background-repeat: no-repeat;
+		background-position: 82% 50%;
+		background-size: 20px 20px;
 	}
 	::placeholder{
 		color: hsl(0, 36%, 70%);
@@ -58,27 +72,20 @@
 	}
 	.btn{
 		background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-	    padding: 8px 20px;
+	    padding: 8.5px 22px;
 	    border: none;
 	    border-radius: 20px;
 	    position: absolute;
 	    right: 10%;
 	    box-shadow: 0 5px 10px 0 hsla(0, 36%, 70%, 0.6);
 	}
-	.error-image{
-		display: none;
-		position: absolute;
-	    right: 28%;
-	    bottom: 3.5%;
-	    width: 5%;
-	}
 	.text{
 		font-family: "Josefin Sans", sans-serif;
 		font-weight: 600;
 		font-size: 10px;
 		position: absolute;
-		left: 18%;
-		bottom: -1.2%;
+		left: 17%;
+		bottom: 38%;
 		color: hsla(0, 93%, 68%, 0.9);
 	}
 
@@ -147,6 +154,7 @@
 	}
 	.fake-input{
 		padding-bottom: 50px;
+		position: relative;
 	}
 	.email-box{
 		background-color: transparent;
@@ -157,6 +165,20 @@
 		position: absolute;
 		bottom: 100px;
 		left: 150px;
+	}
+	.error-image{
+		background-color: transparent;
+		padding: 13px 180px 13px 25px;
+	    border-radius: 20px;
+	    border: 2px solid hsla(0, 93%, 68%, 0.9);
+		outline: none;
+		position: absolute;
+		bottom: 100px;
+		left: 150px;
+		background-image: url('images/icon-error.svg');
+		background-repeat: no-repeat;
+		background-position: 82% 50%;
+		background-size: 20px 20px;
 	}
 	::placeholder{
 		color: hsl(0, 36%, 70%);
@@ -179,20 +201,13 @@
 	.btn:hover{
 		cursor: pointer;
 	}
-	.error-image{
-		display: none;
-		position: absolute;
-		left: 32%;
-		bottom: 17%;
-		width: 1.5%;
-	}
 	.text{
 		font-family: "Josefin Sans", sans-serif;
 		font-weight: 600;
 		font-size: 10px;
-		position: absolute;
-		left: 12.7%;
-		bottom: 12.5%;
+		position: fixed;
+		left: 12.5%;
+		bottom: 15%;
 		color: hsla(0, 93%, 68%, 0.9);
 	}
 
